@@ -3,17 +3,17 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	/* {"⌨", "sb-kbselect", 0, 30}, */
 	{"", "cat /tmp/recordingicon 2>/dev/null",	0,	9},
-	{"",	"sb-music",	0,	11},
-	{"",	"sb-pacpackages",	0,	8},
-	{"",	"sb-news",		0,	6},
-	{"",	"sb-memory",	10,	14}, 
-	{"",	"sb-cpu",		10,	18}, 
-	{"",	"sb-forecast",	18000,	5},
-	{"",	"sb-nettraf",	1,	16},
-	{"",	"sb-volume",	0,	10},
-	{"",	"sb-battery",	5,	3},
-	{"",	"sb-clock",	60,	1},
-	{"",	"sb-internet",	5,	4},
+	{"",	"/home/pc2/sb-music",	0,	11},
+	{"",	"/home/pc2/sb-pacpackages",	0,	8},
+	{"",	"/home/pc2/sb-news",		0,	6},
+	{"",	"/home/pc2/sb-memory",	10,	14}, 
+	{"",	"/home/pc2/sb-cpu",		10,	18}, 
+	{"",	"/home/pc2/sb-forecast",	18000,	5},
+	{"",	"/home/pc2/sb-nettraf",	1,	16},
+	{"",	"/home/pc2/sb-volume",	0,	10},
+	{"",	"/home/pc2/sb-battery",	5,	3},
+	{"",	"/home/pc2/sb-clock",	60,	1},
+	{"",	"/home/pc2/sb-internet",	5,	4},
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
